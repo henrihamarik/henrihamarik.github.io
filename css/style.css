@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/Open_Sans/OpenSans-Regular.ttf") format("ttf"),
+       url("fonts/Open_Sans/OpenSans-Bold.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
+}
+
 #navbar {
   position: fixed;
   width: 101%;
