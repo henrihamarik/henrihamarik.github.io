@@ -1,7 +1,12 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/Open_Sans/OpenSans-Regular.ttf") format("ttf"),
-       url("fonts/Open_Sans/OpenSans-Bold.ttf") format("ttf"),
+  src: url("fonts/Open_Sans/OpenSans-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/Open_Sans/OpenSans-Bold.ttf");
+  font-weight: bold;
 }
 
 @font-face {
