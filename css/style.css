@@ -16,6 +16,11 @@
   font-weight: normal;
 }
 
+footer {
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
 #navbar {
   position: fixed;
   width: 101%;
@@ -539,6 +544,8 @@ input[type=subject]:focus {
   outline: none;
   border-bottom: 2px solid gray;
 }
+
+/* textarea height */
 
 textarea:focus {
   outline: none;
@@ -1579,5 +1586,11 @@ p {
   p {
     font-family: 'Open Sans';
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
   }
 }
