@@ -13,13 +13,13 @@
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <link href='/css/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf' rel='stylesheet' type='text/css'>
 
-    <!-- messenger sharing image -->
-    <meta property="og:image"
-        content="https://scontent-hel3-1.xx.fbcdn.net/v/t1.0-9/20265023_1485041348220071_2782406265635928540_n.jpg?_nc_cat=101&ccb=2&_nc_sid=174925&_nc_ohc=o68hsV3B65sAX-EgA1o&_nc_ht=scontent-hel3-1.xx&oh=87f16f3384805e109ec31780f4160109&oe=5FCAC407" />
-    <meta property="og:description"
-        content="I am Henri, Web Developer. I have learned Web Developing over 3 years. I have studied Front- and Back-End, but i really love Front-End." />
+    <!-- social media sharing -->
+    <meta property="og:image" content="https://scontent-hel3-1.xx.fbcdn.net/v/t1.0-9/20265023_1485041348220071_2782406265635928540_n.jpg?_nc_cat=101&ccb=2&_nc_sid=174925&_nc_ohc=o68hsV3B65sAX-EgA1o&_nc_ht=scontent-hel3-1.xx&oh=87f16f3384805e109ec31780f4160109&oe=5FCAC407" />
+    <meta property="og:description" content="I am Henri, Web Developer. I have learned Web Developing over 3 years. I have studied Front- and Back-End, but i really love Front-End." />
     <meta property="og:url" content="http://henrihamarik.github.io/" />
     <meta property="og:title" content="Portfolio | Henri H" />
+
+    
 </head>
 
 <body>
@@ -40,7 +40,7 @@
         <section id="skills" class="section static">
             <div class="textboxon1">
                 <h1>About</h1>
-                <p>I am Full-Stack Web Developer who loves Front-End.</p>
+                <p class="skillstext">I am Henri H - Web Developer. I have learned Web Developing over 3 years. I have studied Front- and Back-End, but i really love Front-End.</p>
                 <h1 style="margin-top: 10vh;">Skills</h1>
                 <p>Here are few technologies that i'm comfortable with:</p>
                 <div class="imgrow" id="container">
@@ -99,7 +99,7 @@
             <div class="textboxinside1">
                 <h1>Experience</h1>
                 <div class="textarea">
-                    <div class="right">
+                    <div class="exptext">
                         <p>
                             <b>KJPG</b> <br><br>
                             <i>Programming Courses</i> <br>
@@ -109,7 +109,7 @@
                             </span>
                         </p>
                     </div>
-                    <div class="left">
+                    <div class="exptext">
                         <p>
                             <b>TKHK</b> <br><br>
                             <i>Web Developer</i> <br>
@@ -121,7 +121,7 @@
                             </span>
                         </p>
                     </div>
-                    <div class="right">
+                    <div class="exptext">
                         <p>
                             <b>WEBSTATE & RAVENLAB</b> <br><br>
                             <i>Trainee</i> <br>
@@ -145,7 +145,7 @@
                 <h1>Portfolio</h1>
                 <div class="row">
                     <div class="container">
-                        <a href="http://ecoplast.ee/">
+                        <a href="http://ecoplast.ee/" target="_blank">
                             <img src="img/Optimized-Screenshot (2) Cropped.png" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">Paadifirma</div>
@@ -153,15 +153,7 @@
                         </a>
                     </div>
                     <div class="container">
-                        <a href="http://henrihamarik.ikt.khk.ee/Epood/wordpress/">
-                            <img src="img/Optimized-Screenshot (3) Cropped.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Lillepood</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="container">
-                        <a href="http://henrihamarik.ikt.khk.ee/BOOTSTRAP/05.12.2017/">
+                        <a href="../projects/pawhome/index.html" target="_blank">
                             <img src="img/Optimized-Screenshot (4) Cropped.png" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">Koolitöö</div>
@@ -169,7 +161,15 @@
                         </a>
                     </div>
                     <div class="container">
-                        <a href="http://henrihamarik.ikt.khk.ee/JQUERY/9/">
+                        <a href="http://henrihamarik.ikt.khk.ee/Epood/wordpress/" target="_blank">
+                            <img src="img/Optimized-Screenshot (3) Cropped.png" alt="Avatar" class="image">
+                            <div class="overlay">
+                                <div class="text">Lillepood</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <a href="../projects/weather/vihm.html" target="_blank">
                             <img src="img/Optimized-Screenshot (5) Cropped.png" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">Tervitus</div>
@@ -183,9 +183,10 @@
         <section id="Contact" class="section parallax bg3">
             <div class="textboxinside2">
                 <h1>Contact</h1>
+                <img src="img/me.jpeg" alt="Henri" class="responsiveimage" width="600" height="400">
                 <form action="mailto:henri.hamarik@hotmail.com" method="GET" enctype="text/plain" charset=UTF-8
                     accept-charset="UTF-8" autocomplete="on">
-                    <label>Name</label>
+                    <!-- <label>Name</label>
                     <input type="text" id="name" name="name" required autocomplete="name" placeholder="Full Name...">
 
                     <label>E-mail</label>
@@ -195,11 +196,13 @@
                     <input type="subject" id="subject" name="subject" placeholder="Subject..."></input>
 
                     <label for="body">Body</label>
-                    <textarea id="body" name="body" placeholder="Text..."></textarea>
+                    <textarea id="body" name="body" placeholder="Text..."></textarea> -->
 
-                    <input type="submit" value="Send">
-                    <input class="warningred" type="reset" name="reset" value="Clear Form" />
+                    <input type="submit" value="Contact Me!">
+                    <!-- <input class="warningred" type="reset" name="reset" value="Clear Form" /> -->
                 </form>
+
+                
             </div>
 
         </section>
