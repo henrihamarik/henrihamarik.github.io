@@ -607,6 +607,7 @@ input[type=submit]:hover {
 .responsiveimage {
   width: 100%;
   max-width: 400px;
+  min-width: 200px;
   height: auto;
   margin-left: 5%;
 }
@@ -881,7 +882,7 @@ p {
     margin-top: -45vh;
     font-size: 35px;
     font-family: 'Open Sans';
-    margin-left: -40vh;
+    margin-left: -50vh;
   }
   .textboxinside2 p {
     text-align: left;
@@ -1201,7 +1202,7 @@ p {
     margin-top: -40vh;
     font-size: 35px;
     font-family: 'Open Sans';
-    margin-left: -40vh;
+    margin-left: -50vh;
   }
   .textboxinside2 p {
     text-align: left;
@@ -1285,7 +1286,7 @@ p {
 
 /* For iPad */
 
-@media (min-width: 720px) and (max-width: 1100px) {
+@media (min-width: 721px) and (max-width: 1100px) {
   .bg1::after {
     background-position: center;
   }
@@ -1608,7 +1609,6 @@ p {
 @media screen and (min-width: 375px) and (max-width: 720px) and (min-height: 810px) {
   .textboxinside2 {
     width: 50vh;
-    margin-left: 5%;
   }
   
   .textboxinside2 h1 {
@@ -1637,19 +1637,41 @@ p {
     width: 370px;
   }
 
-  #Experience > div > div > div:nth-child(1) > p {
-    width: 80%;
-    margin-left: -10%;
-  }
+  
 
   #Experience > div > div > div.left > p {
     width: 200%;
     margin-left: -10%;
   }
 
-  #Experience > div > div > div:nth-child(3) > p {
-    width: 80%;
-    margin-left: -10%;
+  
+}
+
+@media screen and (max-width: 720px) {
+  .responsiveimage {
+    margin-left: -75%;
   }
 
+  .responsivebutton{
+    margin-left: 200%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .responsivebutton{
+    margin-left: 150%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 720px) {
+  .responsivebutton{
+    margin-top: 10%!important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) and (min-height: 750px) {
+  .textboxinside1 p {
+    width: 450%;
+    margin-left: -100%;
+  }
 }
