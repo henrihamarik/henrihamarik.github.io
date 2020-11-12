@@ -1669,9 +1669,26 @@ p {
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1100px) and (min-height: 750px) {
+@media screen and (min-width: 1000px) and (max-width: 1600px) and (min-height: 750px) and (max-height: 950px) {
+  
+  .textboxinside1 h1 {
+    margin-top: -200px;
+  }
+  
   .textboxinside1 p {
-    width: 450%;
-    margin-left: -100%;
+    width: 900px;
+    margin-left: -300px;
+    line-height: 1.2!important;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) and (min-height: 951px) and (max-height: 1200px) {
+
+  .textboxinside1 p {
+    width: 900px;
+    margin-left: -300px;
+    line-height: 125%!important;
+    font-size: 20px;
   }
 }
