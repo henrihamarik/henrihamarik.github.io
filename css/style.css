@@ -84,9 +84,9 @@ body, html {
   background-color: #272725
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -124,7 +124,7 @@ body, html {
   /* Force the background image to fill the whole element. */
   background-size: 100%;
   /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Esimene leht */
@@ -139,6 +139,7 @@ body, html {
   background-size: cover;
   height: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 
 /* Teine leht */
@@ -155,6 +156,7 @@ body, html {
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+  z-index: 2;
 }
 
 /* Kolmas leht */
@@ -172,6 +174,7 @@ body, html {
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+  z-index: 1;
 }
 
 /* Neljas leht */
@@ -188,6 +191,7 @@ body, html {
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+  z-index: 2;
 }
 
 /* Viies leht */
@@ -205,6 +209,7 @@ body, html {
   justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
+  z-index: 1;
 }
 
 /* Tekst esilehel */
@@ -224,6 +229,7 @@ body, html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 10;
 }
 
 a.button {
@@ -241,6 +247,7 @@ a.button {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 16px;
+  z-index: 10;
 }
 
 a.button:hover {
@@ -347,6 +354,7 @@ a.button:hover {
   text-shadow: 0 0 5px #000;
   margin: 0 auto;
   margin-top: 9vh;
+  z-index: 10 !important;
 }
 
 .exptext {
@@ -490,6 +498,7 @@ span {
   text-shadow: 0 0 5px #000;
   margin: 0 auto;
   margin-top: 9vh;
+  z-index: 10 !important;
 }
 
 .textboxinside2 h1 {
