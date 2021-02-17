@@ -499,6 +499,7 @@ span {
   margin: 0 auto;
   margin-top: 9vh;
   z-index: 10 !important;
+  -webkit-appearance: none;
 }
 
 .textboxinside2 h1 {
